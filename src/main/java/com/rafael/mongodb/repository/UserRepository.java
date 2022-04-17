@@ -7,7 +7,7 @@ import com.rafael.mongodb.domain.User;
 
 
 @Repository
-public interface UserRepository extends MongoRepository<User, String> {
+public interface UserRepository extends MongoRepository<User, String>{
 
 
 }
